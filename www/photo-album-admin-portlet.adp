@@ -1,6 +1,7 @@
 <ul>
-<li> <a href="photo-album/">Admin</a>
+<li> <a href="photo-album/">#photo-album-portlet.Admin#</a>
 </ul>
+
 
 
 
