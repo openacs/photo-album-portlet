@@ -12,7 +12,9 @@
         <vendor url="http://xarg.net">Xarg</vendor>
         <release-date>2003-05-15</release-date>
 
-        <!-- No dependency information -->
+        <requires url="dotlrn-photo-album" version="0.1d"/>
+        <requires url="photo-album" version="4.6"/>
+        <requires url="new-portal" version="0.1a"/>
 
         <callbacks>
             <callback type="after-install"  proc="photo_album_portlet::after_install"/>
