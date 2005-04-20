@@ -1,0 +1,2 @@
+update portal_element_map set pretty_name ='#photo_album_portlet.Photo_Album#'  where pretty_name = 'Photo Album';
+update portal_element_map set pretty_name ='#photo_album_portlet.Administration#'  where pretty_name = 'Photo Album Administration';
