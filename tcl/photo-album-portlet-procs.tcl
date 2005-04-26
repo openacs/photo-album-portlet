@@ -25,7 +25,7 @@ ad_proc -private photo_album_portlet::my_package_key {
 
 ad_proc -public photo_album_portlet::get_pretty_name {
 } {
-    return "[_ photo-album-portlet.Photo_Album]"
+    return "#photo-album-portlet.Photo_Album#"
 }
 
 

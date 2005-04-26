@@ -18,7 +18,7 @@ ad_proc -private photo_album_admin_portlet::get_my_name {
 
 ad_proc -public photo_album_admin_portlet::get_pretty_name {
 } {
-    return "[_ photo-album-portlet.Administration]"
+    return "#photo-album-portlet.Administration#"
 }
 
 
