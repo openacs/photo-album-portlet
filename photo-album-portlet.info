@@ -7,13 +7,13 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="2.2.0b3" url="http://openacs.org/repository/download/apm/photo-album-portlet-2.2.0b3.apm">
+    <version name="2.2.0" url="http://openacs.org/repository/download/apm/photo-album-portlet-2.2.0.apm">
         <owner url="mailto:davis@xarg.net">Jeff Davis</owner>
         <vendor url="http://xarg.net">Xarg</vendor>
-        <release-date>2006-07-15</release-date>
-	<provides url="photo-album-portlet" version="2.2.0b3"/>
+        <release-date>2006-07-31</release-date>
+	<provides url="photo-album-portlet" version="2.2.0"/>
         <requires url="photo-album" version="5.0d1"/>
-        <requires url="new-portal" version="2.2.0b3"/>
+        <requires url="new-portal" version="2.2.0"/>
 
         <callbacks>
             <callback type="after-install"  proc="photo_album_portlet::after_install"/>
